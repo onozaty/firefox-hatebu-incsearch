@@ -1,0 +1,6 @@
+content  hatebu_incsearch  chrome/content/
+skin     hatebu_incsearch  classic/1.0  chrome/skin/
+
+overlay  chrome://browser/content/browser.xul  chrome://hatebu_incsearch/content/overlay.xul
+style    chrome://browser/content/browser.xul  chrome://hatebu_incsearch/skin/toolbar-button.css
+style    chrome://global/content/customizeToolbar.xul  chrome://hatebu_incsearch/skin/toolbar-button.css

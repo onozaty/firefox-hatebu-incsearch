@@ -1,0 +1,1 @@
+\git\firefox-hatebu-incsearch

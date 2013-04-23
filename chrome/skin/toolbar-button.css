@@ -1,0 +1,7 @@
+#hatebuIncsearchButton {
+  list-style-image: url("chrome://hatebu_incsearch/skin/icon-medium.png");
+}
+
+toolbar[iconsize="small"] #hatebuIncsearchButton {
+  list-style-image: url("chrome://hatebu_incsearch/skin/icon-small.png");
+}
