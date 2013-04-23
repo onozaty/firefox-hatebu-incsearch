@@ -71,7 +71,7 @@ HatebuLoader.prototype._load = function() {
       try {
         request.status
       } catch(e) {
-        // error 
+        // error
         self.error('error :connect error :' + self.url);
       }
 
@@ -110,9 +110,8 @@ HatebuLoader.prototype._load = function() {
 
       } else if (request.status == 401){
         // Authorization Required
-        var errMsg = 'error :' + request.status + ' :' + request.statusText + '<br /><br />';
-        errMsg += 'Please login Hatena.<br />';
-        errMsg += '<a href="https://www.hatena.ne.jp/login" target="_blank">https://www.hatena.ne.jp/login</a>';
+        var errMsg = 'error :' + request.status + ' :' + request.statusText;
+        errMsg += ' :Please login Hatena.';
         self.error(errMsg);
         throw errMsg;
       } else {
